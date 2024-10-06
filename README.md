@@ -88,13 +88,13 @@ $ anvil
 ### 🚀 Deploy
 
 ```shell
-$ forge script script/DeployRaffle.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key> --broadcast
+$ forge script script/DeployDSC.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key> --broadcast
 ```
 > ⚠️ **Warning: Using your private key on a chain associated with real money must be avoided!**
 
  OR
 ```shell
-$ forge script script/DeployRaffle.s.sol --rpc-url <your_rpc_url> --account <your_account> --broadcast
+$ forge script script/DeployDSC.s.sol --rpc-url <your_rpc_url> --account <your_account> --broadcast
 ```
 > 📝 **Note: Using your --account requires adding wallet first, which is more secure than the plain text private key!**
 ```Bash
